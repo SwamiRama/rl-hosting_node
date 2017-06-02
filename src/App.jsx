@@ -7,9 +7,6 @@ import './App.css';
 import Navbar from './components/NavBar/index.jsx';
 import TicTacToe from './scenes/TicTacToe/components/Game/index.jsx';
 
-
-
-
 class App extends Component {
   render() {
     return (

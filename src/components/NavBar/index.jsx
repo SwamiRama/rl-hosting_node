@@ -16,7 +16,7 @@ class NavBar extends Component {
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
           </button>
-          <a className="navbar-brand" href="#">Title</a>
+          <a className="navbar-brand" href="#">RL-Hosting</a>
         </div>
 
         <div className="collapse navbar-collapse navbar-ex1-collapse">
