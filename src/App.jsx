@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom'
 
-import logo from './logo.svg';
 import './App.css';
 
 import Navbar from './components/NavBar/index.jsx';
 import TicTacToe from './scenes/TicTacToe/components/Game/index.jsx';
+import Home from './scenes/Home/index.js'
 
 class App extends Component {
   render() {
@@ -17,13 +17,6 @@ class App extends Component {
     );
   }
 }
-
-const Home = () => (<div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to RL-Hosting</h2>
-        </div>
-      </div>)
 
 const Routing = () => (
   <main>
